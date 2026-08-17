@@ -40,8 +40,7 @@
 #Column	Gmag	(F9.6)	? G-band mean magnitude (Vega) (phot_g_mean_mag) (34)	[ucd=phot.mag;em.opt]
 #Column	e_Gmag	(F9.6)	? Standard error of G-band mean magnitude (Vega) (added by CDS) (phot_g_mean_mag_error) (G1)	[ucd=stat.error;phot.mag;stat.mean]
 #Column	BP-RP	(F9.6)	? BP-RP colour (photBpMeanMag - photRpMeanMag) (bp_rp)	[ucd=phot.color;em.opt.B;em.opt.R]
-_r;_RAJ2000;_DEJ2000;Plx;e_Plx;PM;Gmag;e_Gmag;BP-RP
-arcmin;deg;deg;mas;mas;mas/yr;mag;mag;mag
+r(arcmin);RAJ2000(deg);DEJ2000(deg);Plx(mas);e_Plx(mas);PM(mas/yr);Gmag(mag);e_Gmag(mag);BP-RP(mag)
 0.3721;056.5995931161685;+24.1078179521841;    1.0024; 0.4764;   12.013;19.480799; 0.004665; 0.947384
 0.5387;056.6031803295194;+24.1052189000411;    0.8484; 0.0825;   10.813;16.917551; 0.002867; 1.638126
 0.6324;056.5935913866395;+24.1222305662921;    4.9834; 0.0237;   23.400;14.331924; 0.002771; 1.802323
